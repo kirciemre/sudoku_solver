@@ -20,7 +20,7 @@ public:
     void print() const;
 
 private:
-    // 2d vector for sudoku table
+    // 2d vector for sudoku table definition
     std::vector<std::vector<int>> grid;
     
     // is the sudoku 6x6 or 9x9 bool value
